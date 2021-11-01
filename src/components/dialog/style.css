@@ -1,0 +1,27 @@
+.dialog{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+
+}
+.dialog input{
+    width: 45%;
+    text-align: center;
+    margin-top: 10px;
+}
+.mainDialog{
+    width: 270px;
+    height: 450px;
+}
+.DialogButtons{
+    flex-direction: row;
+    width: 180px;
+    position: relative;
+    left:17%;
+}
+.DialogButtons button{
+    margin-top: 30px;
+    margin-right: 10px;
+
+ }

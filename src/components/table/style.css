@@ -1,0 +1,287 @@
+.test{
+   border: solid 1px black;
+}
+.modal{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.4);
+   position: fixed;
+   left:0;
+   top:0;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.modal_sotr{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.4);
+   position: fixed;
+   left:0;
+   top:0;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.modal_appl{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.4);
+   position: fixed;
+   left:0;
+   top:0;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.modal_author{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.4);
+   position: fixed;
+   left:0;
+   top:0;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.modal_contr{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.4);
+   position: fixed;
+   left:0;
+   top:0;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.modal.active{
+   display: flex;
+}
+.modal_sotr.active{
+   display: flex;
+}
+.modal_appl.active{
+   display: flex;
+}
+.modal_author.active{
+   display: flex;
+}
+.modal_contr.active{
+   display: flex;
+}
+.modal__content
+{
+   position: relative;
+   padding: 20px;
+   width: 350px;
+   height: 500px;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__btns{
+   margin-top: 30px;
+   position: relative;
+   left:30px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__title{
+   position: relative;
+   bottom:10px;
+   right: 120px;
+}
+.modal__content_sotr
+{
+   position: relative;
+   padding: 20px;
+   width: 350px;
+   height: 500px;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__btns_sotr{
+   margin-top: 30px;
+   position: relative;
+   left:20px;
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__title_sotr{
+   position: relative;
+   top:7px;
+   right: 114px;
+}
+.modal__content_appl
+{
+   position: relative;
+   padding: 20px;
+   width: 700px;
+   height: 300px !important;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__content_appl2
+{
+   position: relative;
+   padding: 20px;
+   width: 300px;
+   height: 480px !important;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__btns_appl{
+   margin-top: 30px;
+   position: relative;
+   left:170px;
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__btns_appl{
+   margin-top: 30px;
+   position: relative;
+   left:-20px;
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__title2_appl{
+   position: relative;
+   bottom:-12px;
+   right: 0px;
+}
+.modal__title_appl{
+   position: absolute;
+   top:3px;
+   left: 312px;
+}
+.modal__content_author
+{
+   position: relative;
+   padding: 20px;
+   width: 350px;
+   height: 500px;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__btns_author{
+   margin-top: 30px;
+   position: relative;
+   left:20px;
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__title_author{
+   position: relative;
+   top:7px;
+   right: 114px;
+}
+.modal__content_contr
+{
+   position: relative;
+   padding: 20px;
+   width: 350px;
+   height: 520px;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__btns_contr
+{
+   margin-top: 30px;
+   position: relative;
+   left:20px;
+  width: 330px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__title_contr
+{
+   position: relative;
+   top:19px;
+   right: 8px;
+}
+.contacts{
+   position: relative;
+   bottom: 40px;
+   left:300px;
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   justify-content: left;
+}
+.close_popup{
+   width: 25px;
+   position: absolute;
+   left: 310px;
+   top:24px;
+}
+.close_popup_sotr{
+   width: 25px;
+   position: absolute;
+   left: 310px;
+   top:54px;
+}
+.close_popup_appl{
+   width: 25px;
+   position: absolute !important;
+   left: 659px;
+   top:14px;
+}
+.close_popup_appl2{
+   width: 25px;
+   position: absolute;
+   left: 650px;
+   top:14px;
+}
+.close_popup_author{
+   width: 25px;
+   position: absolute;
+   left: 310px;
+   top:54px;
+}
+.close_popup_contr
+{
+   width: 25px;
+   position: absolute;
+   left: 310px;
+   top:69px;
+}
+
+.allbooks{
+   position: relative;
+   left:80px;
+   top:80px;
+}
+.books{
+   position:relative;
+   top:34px;
+   left: 200px;
+}

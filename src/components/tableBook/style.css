@@ -1,0 +1,66 @@
+.modal{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    left:0;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal.active{
+    /* display: flex; */
+}
+.modal__content
+{
+    position: relative;
+    padding: 20px;
+    width: 300px !important;
+    height: 450px !important;
+    border-radius: 12px;
+    background-color:white;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.modal__btns{
+    margin-top: 30px;
+    position: relative;
+    left:10px !important;
+   width: 270px !important;
+   display: flex;
+   justify-content: space-around;
+}
+.modal__title{
+    position: relative;
+    bottom:30px !important;
+    right: 80px !important;
+}
+.contacts{
+    position: relative;
+    bottom: 40px;
+    left:300px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: left;
+}
+.close_popup{
+    width: 25px;
+    position: absolute;
+    left: 260px !important;
+    top:8px !important;
+}
+
+.allbooks{
+    position: relative;
+    left:80px;
+    top:80px;
+}
+.books{
+    position:relative;
+    top:34px;
+    left: 200px;
+}

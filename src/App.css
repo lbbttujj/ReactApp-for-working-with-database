@@ -1,6 +1,29 @@
+
+@font-face {
+	font-family: FontName; 
+	src: url('./fonts/Antikvarika.ttf'); 
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./img/back.png');
+  background-size: 95em 45em;
+  justify-content: start;
+  height: 400vh;
 }
+.App::-webkit-scrollbar {
+  display: none; 
+}
+.App_inputs{
+ 
+}
+
+.App_inputs input{
+  margin: 4%;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +58,101 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {font-family: Arial;}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.modal_authoriz {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  left:0;
+  top:0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal_authoriz.active{
+  display: flex;
+}
+
+
+.modal__content_authoriz 
+{
+   position: relative;
+   padding: 20px;
+   width: 350px;
+   height: 350px;
+   border-radius: 12px;
+   background-color:white;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+}
+.modal__btns_authoriz {
+   margin-top: 30px;
+   position: relative;
+   left:0px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.modal__title_authoriz {
+   position: relative;
+   top:-10px;
+   left: 50px;
+   font-size: 30px;
+   font-family: FontName;
+
+}
+.modal__title_authoriz_img {
+   position: relative;
+   top:70px;
+   left: 20px;
+}
+
+
+#intCheck{
+  z-index: 10000;
+}
+#stringCheck{
+  z-index: 10000;
 }
